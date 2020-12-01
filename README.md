@@ -1,6 +1,6 @@
 # Kaggle - Mechanisms of Action (MoA) Prediction
 
-## Score
+## スコア
 
 
 | Version | Private LB | Public LB | CV                  | AUC                | CV Strategy | Fold | Seed | Execution Time | Blend Weight                       |
@@ -9,7 +9,7 @@
 | v131    | 0.01618    | 0.01836   | 0.01512241439772212 | 0.8415474216651967 | old         | 7    | 2    | 5964s          | average                            |
 
 
-## Basic Strategy
+## 基本戦略
 
 - Preprocessing
     - Remove `ctrl_vehicle`
@@ -31,11 +31,6 @@
     - Ensemble above with weight optimization
 
 
-## Review
+## 振り返り
 
-
-
-
-
-
-
+[Kaggle Mechanisms of Action (MoA) Prediction 振り返り](https://imokuri123.com/blog/2020/12/kaggle-lish-moa/)
